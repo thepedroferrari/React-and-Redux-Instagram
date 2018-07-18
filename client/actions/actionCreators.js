@@ -9,6 +9,7 @@ export const increment = (index) => {
 // add comment
 
 export const addComment = (postId, author, comment) => {
+	console.log('dispatching');
 	return {
 		type: 'ADD_COMMENT',
 		postId,
